@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      <h1>Encabezado</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Carrito</a></li>
+          <button onclick="abrirModalLogin()">Login</button>
+
+<div id="modalLogin" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Iniciar sesión</h2>
+    <form>
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email">
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password">
+      <button type="submit">Iniciar sesión</button>
+    </form>
+  </div>
+</div>
+
+        </ul>
+      </nav>
+    </header>
+  
+    <main>
+      <section>
+        <h2>Sección de contenido</h2>
+        <p>Párrafo de texto.</p>
+      </section>
+    </main>
+  
+    <footer>
+      <p>&copy; 2024 Mi sitio web</p>
+    </footer>
+  
+    <script src="script.js"></script>
+  </body>
+  </html>
